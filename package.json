@@ -3,9 +3,10 @@
   "version": "0.0.1",
   "description": "???",
   "scripts": {
-    "test": "npm run lint && tsc && mocha --recursive",
+    "test": "npm run lint && npm run test-bare",
+    "test-bare": "tsc && mocha --recursive",
     "test-debug": "mocha --recursive --inspect",
-    "lint": "tslint --project ."
+    "lint": "tslint --project . --fix"
   },
   "author": "Nurbol Alpysbayev",
   "license": "ISC",
@@ -16,6 +17,7 @@
   "devDependencies": {
     "@types/chai": "latest",
     "@types/mocha": "latest",
+    "@types/node": "latest",
     "chai": "latest",
     "mocha": "latest",
     "tslint": "latest",
