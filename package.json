@@ -18,7 +18,8 @@
     "@types/mocha": "latest",
     "chai": "latest",
     "mocha": "latest",
-    "tslint": "latest"
+    "tslint": "latest",
+    "typescript": "latest"
   },
   "dependencies": {}
 }
