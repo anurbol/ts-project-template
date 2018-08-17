@@ -4,10 +4,10 @@
       "dom",
       "es7"
     ],
-    "outDir": "./lib",
-    "rootDir": "./src",
     "target": "es6",
     "module": "commonjs",
-    "strict": true
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
   }
 }
