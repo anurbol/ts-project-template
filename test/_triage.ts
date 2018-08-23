@@ -7,17 +7,7 @@ describe('triage tests and delete me', () => {
         throw new Error('______')
     })
 
-
-
-
-
-
-
-
-
-
-    after(() => {
-        throw new Error('triage tests and delete me')
+    it('tests must be triaged', () => {
+        throw new Error('tests are not triaged yet')
     })
 })
-
