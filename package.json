@@ -4,7 +4,7 @@
   "description": "???",
   "scripts": {
     "test": "npm run lint && npm run test-bare",
-    "test-bare": "tsc && mocha --recursive",
+    "test-bare": "tsc && mocha --recursive --bail",
     "test-debug": "mocha --recursive --inspect",
     "lint": "tslint --project . --fix"
   },
